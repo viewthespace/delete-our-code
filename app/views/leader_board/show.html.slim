@@ -1,0 +1,11 @@
+-content_for :title, "Delete Our Code Leaderboard"
+.leader_board_results
+  h2 Deal Our Code Leader Board
+  table
+    thead
+      tr
+        th
+        th="Name"
+        th="Deletes"
+    =render collection: @stats, partial: 'leader_board_result'
+
