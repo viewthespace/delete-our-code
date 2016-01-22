@@ -83,6 +83,7 @@ GEM
     minitest (5.8.3)
     multi_json (1.11.2)
     multipart-post (2.0.0)
+    newrelic_rpm (3.7.3.204)
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
     octokit (4.2.0)
@@ -187,6 +188,7 @@ DEPENDENCIES
   hashie
   jbuilder (~> 2.0)
   jquery-rails
+  newrelic_rpm
   octokit
   pg
   pry-byebug

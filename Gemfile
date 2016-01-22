@@ -30,6 +30,7 @@ gem 'github_webhook'
 gem "octokit"
 gem 'puma'
 gem 'hashie'
+gem 'newrelic_rpm'
 
 
 # Use ActiveModel has_secure_password
